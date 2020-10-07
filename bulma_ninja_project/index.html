@@ -85,20 +85,55 @@
       <div class="container">
         <div class="columns is-8 is-variable">
           <div class="column is-7-tablet">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
-              natus pariatur quidem voluptatem optio, itaque vel voluptatum
-              dolor voluptas consequatur, modi harum molestiae! Aut corporis
-              cumque id natus? Rerum, beatae.
-            </p>
+            <!-- tabbed content -->
+            <div class="tabs is-boxed">
+              <ul>
+                <li class="is-active" data-target="productDetails">
+                  <a>Product Details</a>
+                </li>
+                <li data-target="deliveryInformation">
+                  <a>Delivery Information</a>
+                </li>
+              </ul>
+            </div>
+            <div class="px-2" id="tabContent">
+              <div id="productDetails">
+                <h3 class="is-size-5 title">Product Details</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae velit exercitationem officiis, ad quia illum? Veritatis
+                  numquam aperiam asperiores repudiandae quidem laborum
+                  similique doloremque necessitatibus iure. Nihil cumque in
+                  totam.
+                </p>
+              </div>
+              <div id="deliveryInformation" class="is-hidden">
+                <h3 class="is-size-5 title">Delivery Information</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Beatae velit exercitationem officiis, ad quia illum? Veritatis
+                  numquam aperiam asperiores repudiandae quidem laborum
+                  similique doloremque necessitatibus iure. Nihil cumque in
+                  totam.
+                </p>
+              </div>
+            </div>
           </div>
           <div class="column is-5-tablet">
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam quo
-              eligendi quas nostrum iusto, dolor magnam atque, aspernatur
-              quisquam laudantium iste, non quibusdam repellat at repellendus
-              nulla suscipit autem porro.
-            </p>
+            <!-- message box -->
+            <div class="message">
+              <div class="message-header">
+                <p>Earn Points with the Coffee Club</p>
+              </div>
+              <div class="message-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+                  tempore soluta odio ipsum earum aut harum iusto sapiente
+                  aspernatur voluptates voluptatum voluptate architecto sit
+                  distinctio reprehenderit neque, necessitatibus totam commodi.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
