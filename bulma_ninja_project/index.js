@@ -25,3 +25,21 @@ tabs.forEach((tab) => {
     });
   });
 });
+
+// modal
+const signUpButton = document.getElementById('signUpButton');
+const modalBg = document.querySelector('.modal-background');
+const modal = document.querySelector('.modal');
+const buttonClose = document.getElementById('buttonClose');
+
+signUpButton.addEventListener('click', () => {
+  modal.classList.add('is-active');
+});
+
+modalBg.addEventListener('click', () => {
+  modal.classList.remove('is-active');
+});
+
+buttonClose.addEventListener('click', () => {
+  modal.classList.remove('is-active');
+});
